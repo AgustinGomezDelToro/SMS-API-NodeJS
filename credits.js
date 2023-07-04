@@ -1,7 +1,7 @@
 const https = require('https');
 
 // Préparer les données pour la requête GET
-let data = 'apiKey=9d508bc26ea3e9a4673b4faf66940e4b7e8fcdef';
+let data = 'apiKey=YOUR API KEY';
 let url = 'https://api.smspartner.fr/v1/me?' + data;
 
 https.get(url, (res) => {
